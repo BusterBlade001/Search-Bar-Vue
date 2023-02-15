@@ -20,6 +20,7 @@
           label="Select"
           :items="types"
           v-model="input2"
+          clearable="true"
         ></v-select>
       </v-col>
     </v-row>
